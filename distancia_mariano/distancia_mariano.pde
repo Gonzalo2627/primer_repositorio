@@ -1,4 +1,4 @@
-int posicionM, posicionK, distanciaMyK;
+int posicionM, posicionK, distanciaMK;
 
 public void setup(){
   posicionM=5;
@@ -8,9 +8,9 @@ public void setup(){
 }
 
 public void calcularDistancia(){
-  distanciaMyK=posicionK - posicionM;
+  distanciaMK=posicionK - posicionM;
 }
 
 public void mostrarDistancia(){
-  println(distanciaMyK);
+  println(distanciaMK);
 }
